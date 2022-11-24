@@ -50,7 +50,12 @@
       "Type": "Decoration",
       "Configurations": [
          {
-            "Texture": "assets/turkey.png",
+            "Texture": "assets/turkey.png:0",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         },
+                  {
+            "Texture": "assets/turkey.png:1",
             "DisplaySize": { "X": 1, "Y": 1 },
             "CollisionHeight": 1
          }
