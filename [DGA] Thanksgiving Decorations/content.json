@@ -1,0 +1,69 @@
+[
+
+   {
+      "$ItemType": "Furniture",
+      "ID": "Thanksgiving Banner",
+      "Type": "Painting",
+      "Configurations": [
+         {
+            "Texture": "assets/banner.png",
+            "DisplaySize": { "X": 3, "Y": 1 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 300,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.thanksgiving/Thanksgiving Banner"
+      }
+   },
+      {
+      "$ItemType": "Furniture",
+      "ID": "Thanksgiving Table",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "assets/table.png",
+            "DisplaySize": { "X": 4, "Y": 4 },
+            "CollisionHeight": 2
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 1200,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.thanksgiving/Thanksgiving Table"
+      }
+   },
+      {
+      "$ItemType": "Furniture",
+      "ID": "Thanksgiving Turkey",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "assets/turkey.png",
+            "DisplaySize": { "X": 1, "Y": 1 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 500,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.thanksgiving/Thanksgiving Turkey"
+      }
+   },
+]
